@@ -1,6 +1,6 @@
 pandas
 openai
-pinecone
+pinecone-client
 python-dotenv
 tiktoken
 fastapi
