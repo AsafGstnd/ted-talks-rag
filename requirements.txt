@@ -1,0 +1,7 @@
+pandas
+openai
+pinecone
+python-dotenv
+tiktoken
+fastapi
+uvicorn
