@@ -40,7 +40,7 @@ def get_token_chunks(text, chunk_size, overlap):
 
 # 4. Load and Process the Data
 # Ensure 'ted_talks_en.csv' is in your project root folder
-df = pd.read_csv("ted_talks_en.csv").head(50)  # Start with 50 talks to stay under budget [cite: 39]
+df = pd.read_csv("ted_talks_en.csv")  # Start with 50 talks to stay under budget [cite: 39]
 
 print(f"Starting ingestion for {len(df)} talks...")
 
