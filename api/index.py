@@ -21,8 +21,14 @@ CONFIG = {
 }
 
 
+@app.get("/")
+def read_root():
+    """This prevents the 404 error on your main Vercel link."""
+    return {"message": "TED Talks RAG API is live. Use /api/stats or /api/prompt."}
+
 @app.get("/api/stats")
 async def get_stats():
+    """Mandatory endpoint to report your project settings."""
     return CONFIG
 
 
